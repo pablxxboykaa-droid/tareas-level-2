@@ -1,0 +1,16 @@
+# 5. Notas de alumnos
+notas = {"nelson": 80, "daniel": 45, "jose pelolargo": 60}
+for nombre, nota in notas.items():
+    estado = "Aprobado" if nota >= 60 else "Reprobado"
+    print(f"{nombre}: {estado}")
+
+# 6. FizzBuzz (clasico de las entrevistas)
+for i in range(1, 51):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)

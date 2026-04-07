@@ -1,0 +1,8 @@
+/* Box model */
+.caja { width: 100px; height: 100px; padding: 10px; border: 1px solid #000; box-sizing: border-box; }
+
+/* Flexbox para el menu */
+.nav { display: flex; justify-content: space-around; list-style: none; }
+
+/* Grid 2x2 */
+.galeria { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
